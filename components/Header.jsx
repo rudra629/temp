@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
-  const [logoSrc, setLogoSrc] = useState('https://www.bazana.in/assets/images/Bazana-Logo.png')
+  const [logoSrc, setLogoSrc] = useState('/slides/img3.jpg')
 
   // Close menu on scroll (mirrors original behaviour)
   useEffect(() => {
